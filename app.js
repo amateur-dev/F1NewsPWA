@@ -16,7 +16,7 @@ window.addEventListener('load', e => {
 });
 
 async function updateNews() {
-    const res = await fetch(`https://newsapi.org/v2/everything?q=f1&sources=bbc-sport&sortBy=publishedAt&apiKey=${API}`);
+    const res = await fetch(`https://newsapi.org/v2/everything?q=f1&sources=google-news,bbc-news&language=en&sorted=publishedAt&apiKey=${API}`);
     const json = await res.json();
     main.innerHTML = json.articles.map(createArticle).join('\n');
 };
