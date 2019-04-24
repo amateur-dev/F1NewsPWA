@@ -2,6 +2,8 @@ import { API } from './secret.js'
 
 const main = document.querySelector('main');
 
+window.location.reload(true)
+
 window.addEventListener('load', e => {
     updateNews();
 
