@@ -16,7 +16,7 @@ window.addEventListener('load', e => {
 });
 
 async function updateNews() {
-    const res = await fetch(`https://newsapi.org/v2/everything?q=f1&sources=bbc-news&language=en&sorted=publishedAt&apiKey=${API}`);
+    const res = await fetch(`https://gnews.io/api/v2/?q=f1&max=20&token=${API}`);
     const json = await res.json();
     main.innerHTML = json.articles.map(createArticle).join('\n');
 };
@@ -24,16 +24,15 @@ async function updateNews() {
 
 
 function createArticle(article) {
-    let date = new Date(article.publishedAt);
-    var dt_str = date.toDateString();
+    // let date = new Date(article.publishedAt);
+    // var dt_str = date.toDateString();
     return `
     <div class="article">
-      <a href="${article.url}">
+      <a href="${article.link}">
         <h2>${article.title}</h2>
-        <img src="${article.urlToImage}" alt="${article.title}">
-        <p>${article.description}</p>
-        <p>${article.description}</p>
-        <p>${dt_str}</p>
+        <img src="${article.image}" alt="${article.title}">
+        <p>${article.desc}</p>
+        <p>${article.date}</p>
       </a >
     </div >
         `
