@@ -1,0 +1,29 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "f1 News PWA",
+  "main": "app.js",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "npx": "^10.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -a 132.147.98.184",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amateur-dev/F1NewsPWA.git"
+  },
+  "keywords": [
+    "F1",
+    "PWA"
+  ],
+  "author": "Dipesh Sukhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amateur-dev/F1NewsPWA/issues"
+  },
+  "homepage": "https://github.com/amateur-dev/F1NewsPWA#readme"
+}
