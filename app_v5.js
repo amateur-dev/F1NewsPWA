@@ -27,7 +27,7 @@ function createArticle(article) {
     // let date = new Date(article.publishedAt);
     // var dt_str = date.toDateString();
     return `
-       <div class="col-4 p-2" id="articlee">
+       <div class="col-lg-4 col-md-6 col-sm-12 p-2" id="articlee">
                     <a href="${article.link}">
                         <h2>${article.title}</h2>
                         <img src="${article.image}" onerror="this.src='./images/f1_alt_image.png';" class="img-thumbnail rounded py=1" alt="${article.title}">
