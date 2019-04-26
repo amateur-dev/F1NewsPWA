@@ -23,16 +23,17 @@ main {
     grid-auto-flow: row dense;
 }
   
-.article h2 {
+.result_article h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
-.article a,
-.article a:visited {
+.result_article a,
+.result_article a:visited {
     text-decoration: none;
     color: inherit;
 }
   
-.article img {
+.result_article img {
     width: 100%;
 }
+

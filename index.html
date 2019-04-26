@@ -7,19 +7,32 @@
     <link rel="icon" href="f1-icon.png" sizes="16x16" type="image/png">
     <title>News Feed App</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="manifest" href="manifest.json">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="pwacompat.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>News Feed</h1>
-        <h5>powered by
+    <header class="p-3 mb-4">
+        <h2 class="text-center">F1 News Feed</h2>
+        <br class="clearfix">
+        <p class="float-right">powered by
             <a href="gnews.io">GNews.io</a>
-        </h5>
+        </p>
     </header>
-    <main></main>
-    <script type="module" src="app.js"></script>
+
+    <div class="clearfix">
+        <div class="container">
+        <div id="article_result" class="row">
+
+        </div>
+        
+        </div>
+    </div>
+    <script type="module" src="app_v5.js"></script>
     <script type="module" src="secret.js"></script>
 </body>
 

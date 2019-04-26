@@ -2,7 +2,7 @@ const cacheName = 'news-v1';
 
 const staticAssets = [
     './',
-    './app.js',
+    './app_v5.js',
     './styles.css',
     // './fallback.json',
     // './images/fetch-dog.jpg'
