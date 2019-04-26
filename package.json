@@ -4,12 +4,12 @@
   "description": "f1 News PWA",
   "main": "app.js",
   "dependencies": {
-    "npx": "^10.2.0",
-    "save": "^2.3.3"
+    "http-server": "^0.11.1",
+    "npx": "^10.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npx serve .",
+    "start": "http-server -p 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
