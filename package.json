@@ -6,12 +6,11 @@
   "dependencies": {
     "http-server": "^0.11.1",
     "npx": "^10.2.0",
-     "ecstatic": ">=3.3.2"
+    "ecstatic": ">=3.3.2"
   },
-  
   "devDependencies": {
-  "ecstatic": ">=3.3.2"
-}
+    "ecstatic": ">=3.3.2"
+  },
   "scripts": {
     "start": "http-server -a 132.147.98.184",
     "test": "echo \"Error: no test specified\" && exit 1"
