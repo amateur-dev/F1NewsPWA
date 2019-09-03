@@ -1,8 +1,9 @@
 version: '3.7'
 services:
-  F1App:
+  f1pwa:
     build: .
     ports:
       - "3000:3000"
+      - "8000:8000"
     volumes:
       - .:/home
