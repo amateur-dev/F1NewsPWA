@@ -1,4 +1,3 @@
-FROM node:latest
+FROM dipeshsukhani/ubuntu:latest
 WORKDIR /home
-COPY . .
-CMD tail -f /dev/null
+ADD . /home

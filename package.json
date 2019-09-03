@@ -4,15 +4,15 @@
   "description": "f1 News PWA",
   "main": "app.js",
   "dependencies": {
+    "ecstatic": ">=3.3.2",
     "http-server": "^0.11.1",
-    "npx": "^10.2.0",
-    "ecstatic": ">=3.3.2"
+    "npx": "^10.2.0"
   },
   "devDependencies": {
     "ecstatic": ">=3.3.2"
   },
   "scripts": {
-    "start": "http-server -a 132.147.98.184",
+    "start": "http-server -a",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,7 +1,8 @@
+version: '3.7'
 services:
+  F1App:
     build: .
     ports:
-      - "5000:5000"
-      - "8000:8000"
+      - "3000:3000"
     volumes:
       - .:/home
