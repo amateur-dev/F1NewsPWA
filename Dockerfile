@@ -1,4 +1,6 @@
 FROM node:latest
 WORKDIR /home
-COPY . .
-CMD tail -f /dev/null
+ADD . /home
+RUN npm install -g http-server
+RUN npm install
+CMD npm start
