@@ -4,12 +4,12 @@
   "description": "f1 News PWA",
   "main": "app.js",
   "dependencies": {
-    "ecstatic": ">=3.3.2",
+    "ecstatic": ">=4.1.4",
     "http-server": "^0.11.1",
     "npx": "^10.2.0"
   },
   "devDependencies": {
-    "ecstatic": ">=3.3.2"
+    "ecstatic": ">=4.1.4"
   },
   "repository": {
     "type": "git",
