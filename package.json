@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "ecstatic": ">=3.3.2",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "npx": "^10.2.0"
   },
   "devDependencies": {
